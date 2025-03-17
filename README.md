@@ -1,4 +1,4 @@
-# Scan Context++: Structural Place Recognition Robust to Rotation and Lateral Variations in Urban Environments(TRO 2022)
+# Scan Context++: Structural Place Recognition Robust to Rotation and Lateral Variations in Urban Environments(TRO 2021)
 - Note:this the evaluation by using pr curve for Scan context++
 - paper code : https://github.com/gisbi-kim/scancontext_tro
 
