@@ -17,6 +17,8 @@
 |                                                                             KITTI 02|         riverside02                   |      DCC02                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 |![cc_02](https://github.com/user-attachments/assets/4b364baa-2b3f-4adf-8569-dd653a0e3202)|![cc_02](https://github.com/user-attachments/assets/d61d0332-0f3a-4025-9541-4f63e9c271af)|![dc11c02](https://github.com/user-attachments/assets/ee6fcbfc-77c6-47ef-ac57-aca06bee949b)|
+# results analysis
+SC++ solves revisits with lateral translations by creating an enhanced descriptor PC and an enhanced CC to solve inverse revisit events with smaller lateral translations.SC++ has a significant performance improvement compared to SC on the KITTI02, KITTI08, and Riverside02 sequences.However, realistic revisit events typically occur with both viewpoint rotation and lateral displacement, and the augmented PC performance is limited, e.g., on sequence DCC02. Next, I will attempt to evaluate the RING++ approach, which decouples lateral translation and rotation.
 # cite
 ```
 @ARTICLE{9610172,
